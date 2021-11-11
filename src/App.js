@@ -41,7 +41,7 @@ function App() {
                         <div className="min-max">Min : {Math.round(weather.main.temp_min)}<sup>o</sup><span>c</span> | Max : {Math.round(weather.main.temp_max)}<sup>o</sup><span>c</span></div>
                         <h1>{weather.weather[0].main}</h1>
                     </div>
-                 ) : <h3>Sorry!! Please try again😪</h3> }
+                 ) : ('') }
                 </div> 
             </div>
     </div>
