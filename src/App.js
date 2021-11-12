@@ -29,7 +29,7 @@ function App() {
       <div className="search-box-container">
                 <div class="search-box">
                     <button class="btn-search"><i class="fas fa-search"></i></button>
-                    <input type="text" class="input-search" placeholder="Type to Search..." onChange={e =>setQuery(e.target.value)} value={query} onKeyPress={search} ></input>
+                    <input type="text" class="input-search" placeholder="Type city name & hit enter" onChange={e =>setQuery(e.target.value)} value={query} onKeyPress={search} ></input>
                 </div>
             </div>
             <div>
